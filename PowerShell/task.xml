@@ -1,0 +1,614 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.Internal.Format.FormatStartData</T>
+      <T>Microsoft.PowerShell.Commands.Internal.Format.StartData</T>
+      <T>Microsoft.PowerShell.Commands.Internal.Format.ControlInfoData</T>
+      <T>Microsoft.PowerShell.Commands.Internal.Format.PacketInfoData</T>
+      <T>Microsoft.PowerShell.Commands.Internal.Format.FormatInfoData</T>
+      <T>System.Object</T>
+    </TN>
+    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatStartData</ToString>
+    <Props>
+      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">033ecb2bc07a4d43b5ef94ed5a35d280</S>
+      <Nil N="pageHeaderEntry" />
+      <Nil N="pageFooterEntry" />
+      <Nil N="autosizeInfo" />
+      <Obj N="shapeInfo" RefId="1">
+        <TN RefId="1">
+          <T>Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo</T>
+          <T>Microsoft.PowerShell.Commands.Internal.Format.ShapeInfo</T>
+          <T>Microsoft.PowerShell.Commands.Internal.Format.FormatInfoData</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewHeaderInfo</ToString>
+        <Props>
+          <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">830bdcb24c1642258724e441512233a4</S>
+        </Props>
+      </Obj>
+      <Nil N="groupingEntry" />
+    </Props>
+  </Obj>
+  <Obj RefId="2">
+    <TN RefId="2">
+      <T>Microsoft.PowerShell.Commands.Internal.Format.GroupStartData</T>
+      <T>Microsoft.PowerShell.Commands.Internal.Format.StartData</T>
+      <T>Microsoft.PowerShell.Commands.Internal.Format.ControlInfoData</T>
+      <T>Microsoft.PowerShell.Commands.Internal.Format.PacketInfoData</T>
+      <T>Microsoft.PowerShell.Commands.Internal.Format.FormatInfoData</T>
+      <T>System.Object</T>
+    </TN>
+    <ToString>Microsoft.PowerShell.Commands.Internal.Format.GroupStartData</ToString>
+    <Props>
+      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">9e210fe47d09416682b841769c78b8a3</S>
+      <Nil N="shapeInfo" />
+      <Nil N="groupingEntry" />
+    </Props>
+  </Obj>
+  <Obj RefId="3">
+    <TN RefId="3">
+      <T>Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData</T>
+      <T>Microsoft.PowerShell.Commands.Internal.Format.PacketInfoData</T>
+      <T>Microsoft.PowerShell.Commands.Internal.Format.FormatInfoData</T>
+      <T>System.Object</T>
+    </TN>
+    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData</ToString>
+    <Props>
+      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">27c87ef9bbda4f709f6b4002fa4af63c</S>
+      <Obj N="formatEntryInfo" RefId="4">
+        <TN RefId="4">
+          <T>Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry</T>
+          <T>Microsoft.PowerShell.Commands.Internal.Format.FormatEntryInfo</T>
+          <T>Microsoft.PowerShell.Commands.Internal.Format.FormatInfoData</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry</ToString>
+        <Props>
+          <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">cf58f450baa848ef8eb3504008be6978</S>
+          <Obj N="listViewFieldList" RefId="5">
+            <TN RefId="5">
+              <T>System.Collections.Generic.List`1[[Microsoft.PowerShell.Commands.Internal.Format.ListViewField, System.Management.Automation, Version=6.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]</T>
+              <T>System.Object</T>
+            </TN>
+            <LST>
+              <Obj RefId="6">
+                <TN RefId="6">
+                  <T>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</T>
+                  <T>Microsoft.PowerShell.Commands.Internal.Format.FormatInfoData</T>
+                  <T>System.Object</T>
+                </TN>
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">Id</S>
+                  <Obj N="formatPropertyField" RefId="7">
+                    <TN RefId="7">
+                      <T>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</T>
+                      <T>Microsoft.PowerShell.Commands.Internal.Format.FormatValue</T>
+                      <T>Microsoft.PowerShell.Commands.Internal.Format.FormatInfoData</T>
+                      <T>System.Object</T>
+                    </TN>
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">1</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+              <Obj RefId="8">
+                <TNRef RefId="6" />
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">CommandLine</S>
+                  <Obj N="formatPropertyField" RefId="9">
+                    <TNRef RefId="7" />
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">Get-PSDrive</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+              <Obj RefId="10">
+                <TNRef RefId="6" />
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">ExecutionStatus</S>
+                  <Obj N="formatPropertyField" RefId="11">
+                    <TNRef RefId="7" />
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">Completed</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+              <Obj RefId="12">
+                <TNRef RefId="6" />
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">StartExecutionTime</S>
+                  <Obj N="formatPropertyField" RefId="13">
+                    <TNRef RefId="7" />
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">9/25/19 2:46:27 AM</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+              <Obj RefId="14">
+                <TNRef RefId="6" />
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">EndExecutionTime</S>
+                  <Obj N="formatPropertyField" RefId="15">
+                    <TNRef RefId="7" />
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">9/25/19 2:46:27 AM</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+              <Obj RefId="16">
+                <TNRef RefId="6" />
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">Duration</S>
+                  <Obj N="formatPropertyField" RefId="17">
+                    <TNRef RefId="7" />
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">00:00:00.0700230</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+            </LST>
+          </Obj>
+        </Props>
+      </Obj>
+      <B N="outOfBand">false</B>
+      <S N="writeStream">None</S>
+    </Props>
+  </Obj>
+  <Obj RefId="18">
+    <TNRef RefId="3" />
+    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData</ToString>
+    <Props>
+      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">27c87ef9bbda4f709f6b4002fa4af63c</S>
+      <Obj N="formatEntryInfo" RefId="19">
+        <TNRef RefId="4" />
+        <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry</ToString>
+        <Props>
+          <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">cf58f450baa848ef8eb3504008be6978</S>
+          <Obj N="listViewFieldList" RefId="20">
+            <TNRef RefId="5" />
+            <LST>
+              <Obj RefId="21">
+                <TNRef RefId="6" />
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">Id</S>
+                  <Obj N="formatPropertyField" RefId="22">
+                    <TNRef RefId="7" />
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">2</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+              <Obj RefId="23">
+                <TNRef RefId="6" />
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">CommandLine</S>
+                  <Obj N="formatPropertyField" RefId="24">
+                    <TNRef RefId="7" />
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">Get-Process</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+              <Obj RefId="25">
+                <TNRef RefId="6" />
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">ExecutionStatus</S>
+                  <Obj N="formatPropertyField" RefId="26">
+                    <TNRef RefId="7" />
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">Completed</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+              <Obj RefId="27">
+                <TNRef RefId="6" />
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">StartExecutionTime</S>
+                  <Obj N="formatPropertyField" RefId="28">
+                    <TNRef RefId="7" />
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">9/25/19 2:46:35 AM</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+              <Obj RefId="29">
+                <TNRef RefId="6" />
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">EndExecutionTime</S>
+                  <Obj N="formatPropertyField" RefId="30">
+                    <TNRef RefId="7" />
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">9/25/19 2:46:35 AM</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+              <Obj RefId="31">
+                <TNRef RefId="6" />
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">Duration</S>
+                  <Obj N="formatPropertyField" RefId="32">
+                    <TNRef RefId="7" />
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">00:00:00.4320200</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+            </LST>
+          </Obj>
+        </Props>
+      </Obj>
+      <B N="outOfBand">false</B>
+      <S N="writeStream">None</S>
+    </Props>
+  </Obj>
+  <Obj RefId="33">
+    <TNRef RefId="3" />
+    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData</ToString>
+    <Props>
+      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">27c87ef9bbda4f709f6b4002fa4af63c</S>
+      <Obj N="formatEntryInfo" RefId="34">
+        <TNRef RefId="4" />
+        <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry</ToString>
+        <Props>
+          <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">cf58f450baa848ef8eb3504008be6978</S>
+          <Obj N="listViewFieldList" RefId="35">
+            <TNRef RefId="5" />
+            <LST>
+              <Obj RefId="36">
+                <TNRef RefId="6" />
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">Id</S>
+                  <Obj N="formatPropertyField" RefId="37">
+                    <TNRef RefId="7" />
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">3</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+              <Obj RefId="38">
+                <TNRef RefId="6" />
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">CommandLine</S>
+                  <Obj N="formatPropertyField" RefId="39">
+                    <TNRef RefId="7" />
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">Get-History</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+              <Obj RefId="40">
+                <TNRef RefId="6" />
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">ExecutionStatus</S>
+                  <Obj N="formatPropertyField" RefId="41">
+                    <TNRef RefId="7" />
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">Completed</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+              <Obj RefId="42">
+                <TNRef RefId="6" />
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">StartExecutionTime</S>
+                  <Obj N="formatPropertyField" RefId="43">
+                    <TNRef RefId="7" />
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">9/25/19 2:47:24 AM</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+              <Obj RefId="44">
+                <TNRef RefId="6" />
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">EndExecutionTime</S>
+                  <Obj N="formatPropertyField" RefId="45">
+                    <TNRef RefId="7" />
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">9/25/19 2:47:24 AM</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+              <Obj RefId="46">
+                <TNRef RefId="6" />
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">Duration</S>
+                  <Obj N="formatPropertyField" RefId="47">
+                    <TNRef RefId="7" />
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">00:00:00.0060080</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+            </LST>
+          </Obj>
+        </Props>
+      </Obj>
+      <B N="outOfBand">false</B>
+      <S N="writeStream">None</S>
+    </Props>
+  </Obj>
+  <Obj RefId="48">
+    <TNRef RefId="3" />
+    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatEntryData</ToString>
+    <Props>
+      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">27c87ef9bbda4f709f6b4002fa4af63c</S>
+      <Obj N="formatEntryInfo" RefId="49">
+        <TNRef RefId="4" />
+        <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewEntry</ToString>
+        <Props>
+          <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">cf58f450baa848ef8eb3504008be6978</S>
+          <Obj N="listViewFieldList" RefId="50">
+            <TNRef RefId="5" />
+            <LST>
+              <Obj RefId="51">
+                <TNRef RefId="6" />
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">Id</S>
+                  <Obj N="formatPropertyField" RefId="52">
+                    <TNRef RefId="7" />
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">4</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+              <Obj RefId="53">
+                <TNRef RefId="6" />
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">CommandLine</S>
+                  <Obj N="formatPropertyField" RefId="54">
+                    <TNRef RefId="7" />
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">Get-History | Format-List -Property *</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+              <Obj RefId="55">
+                <TNRef RefId="6" />
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">ExecutionStatus</S>
+                  <Obj N="formatPropertyField" RefId="56">
+                    <TNRef RefId="7" />
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">Completed</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+              <Obj RefId="57">
+                <TNRef RefId="6" />
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">StartExecutionTime</S>
+                  <Obj N="formatPropertyField" RefId="58">
+                    <TNRef RefId="7" />
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">9/25/19 2:48:36 AM</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+              <Obj RefId="59">
+                <TNRef RefId="6" />
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">EndExecutionTime</S>
+                  <Obj N="formatPropertyField" RefId="60">
+                    <TNRef RefId="7" />
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">9/25/19 2:48:36 AM</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+              <Obj RefId="61">
+                <TNRef RefId="6" />
+                <ToString>Microsoft.PowerShell.Commands.Internal.Format.ListViewField</ToString>
+                <Props>
+                  <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">b761477330ce4fb2a665999879324d73</S>
+                  <Nil N="label" />
+                  <S N="propertyName">Duration</S>
+                  <Obj N="formatPropertyField" RefId="62">
+                    <TNRef RefId="7" />
+                    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatPropertyField</ToString>
+                    <Props>
+                      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">78b102e894f742aca8c1d6737b6ff86a</S>
+                      <S N="propertyValue">00:00:00.0142440</S>
+                      <I32 N="alignment">0</I32>
+                    </Props>
+                  </Obj>
+                </Props>
+              </Obj>
+            </LST>
+          </Obj>
+        </Props>
+      </Obj>
+      <B N="outOfBand">false</B>
+      <S N="writeStream">None</S>
+    </Props>
+  </Obj>
+  <Obj RefId="63">
+    <TN RefId="8">
+      <T>Microsoft.PowerShell.Commands.Internal.Format.GroupEndData</T>
+      <T>Microsoft.PowerShell.Commands.Internal.Format.ControlInfoData</T>
+      <T>Microsoft.PowerShell.Commands.Internal.Format.PacketInfoData</T>
+      <T>Microsoft.PowerShell.Commands.Internal.Format.FormatInfoData</T>
+      <T>System.Object</T>
+    </TN>
+    <ToString>Microsoft.PowerShell.Commands.Internal.Format.GroupEndData</ToString>
+    <Props>
+      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">4ec4f0187cb04f4cb6973460dfe252df</S>
+      <Nil N="groupingEntry" />
+    </Props>
+  </Obj>
+  <Obj RefId="64">
+    <TN RefId="9">
+      <T>Microsoft.PowerShell.Commands.Internal.Format.FormatEndData</T>
+      <T>Microsoft.PowerShell.Commands.Internal.Format.ControlInfoData</T>
+      <T>Microsoft.PowerShell.Commands.Internal.Format.PacketInfoData</T>
+      <T>Microsoft.PowerShell.Commands.Internal.Format.FormatInfoData</T>
+      <T>System.Object</T>
+    </TN>
+    <ToString>Microsoft.PowerShell.Commands.Internal.Format.FormatEndData</ToString>
+    <Props>
+      <S N="ClassId2e4f51ef21dd47e99d3c952918aff9cd">cf522b78d86c486691226b40aa69e95c</S>
+      <Nil N="groupingEntry" />
+    </Props>
+  </Obj>
+</Objs>

@@ -26,7 +26,7 @@ foreach($Process in Get-Process){
 #9.	Сохранить в CSV-файле информацию о записях одной ветви реестра HKLM:\SOFTWARE\Microsoft.
 Get-ChildItem -Path Registry::HKLM\SOFTWARE\Microsoft\ | Export-CSV info.csv
 #10.	Сохранить в XML -файле историческую информацию о командах выполнявшихся в текущем сеансе работы PS.
-Get-History | Export-Clixml task.xml
+Get-History | Format-List -Property * | Export-Clixml task.xml
 #11.	Загрузить данные из полученного в п.10 xml-файла и вывести в виде списка информацию о каждой записи, в виде 5 любых (выбранных Вами) свойств.
 ( [xml] (Get-Content -Path "C:\task.xml")).Objs.Obj | Select RefId, TN, ToString, Props
 #12.	Удалить созданный диск и папку С:\M2T2_ФАМИЛИЯ
