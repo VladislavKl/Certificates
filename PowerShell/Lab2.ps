@@ -1,0 +1,60 @@
+#1.	Получите справку о командлете справки
+Get-Help Get-Help
+#2.	Пункт 1, но детальную справку, затем только примеры
+Get-Help Get-Help -FULL
+Get-Help Get-Help -Examples      
+#3.	Получите справку о новых возможностях в PowerShell 4.0 (или выше)
+$PSVersionTable
+#4.	Получите все командлеты установки значений
+Get-Command Set* -CommandType Cmdlet
+#5.	Получить список команд работы с файлами
+Get-Command *File*
+#6.	Получить список команд работы с объектами
+Get-Command *Object*
+#7.	Получите список всех псевдонимов
+Get-Command -CommandType Alias
+#8.	Создайте свой псевдоним для любого командлета
+Set-Alias gh Get-Help
+#9.	Просмотреть список методов и свойств объекта типа процесс
+Get-Process pwsh | Get-Member   
+#10.	Просмотреть список методов и свойств объекта типа строка
+'q' | Get-Member
+#11.	Получить список запущенных процессов, данные об определённом процессе
+Get-Process 
+Get-Process -id 320 
+#12.	Получить список всех сервисов, данные об определённом сервисе
+Get-Service
+Get-Service WinRM
+#13.	Получить список обновлений системы
+wmic qfe list
+#14.	Узнайте, какой язык установлен для UI Windows
+Get-WinSystemLocale
+#15.	Получите текущее время и дату
+Get-Date       
+#16.	Сгенерируйте случайное число (любым способом)
+Get-Random
+#17.	Выведите дату и время, когда был запущен процесс «explorer». Получите какой это день недели. 
+(Get-Date (Get-Process explorer).StartTime)
+(Get-Date (Get-Process explorer).StartTime).DayOfWeek
+#18.	Откройте любой документ в MS Word (не важно как) и закройте его с помощью PowerShell
+Stop-Process -id 1352 -force
+#19.	Подсчитать значение выражения S= . N – изменяемый параметр. Каждый шаг выводить в виде строки. (Пример: На шаге 2 сумма S равна 9)
+$S = 0                                                        
+$N = 4 
+for ($i = 1; $i -le $N; ++$i){
+    $S += $i
+    Write-Host "S = " $S
+}
+$S
+#20.	Напишите функцию для предыдущего задания. Запустите её на выполнение.
+Function Get-Summ {
+    [cmdletbinding()] 
+    Param ([int]$N)
+    $S=0
+    for($i = 1; $i -le $N; ++$i){
+        $S += $i
+        Write-Host "S = " $S
+    }
+    return $S;
+}
+Get-Summ -N 4
