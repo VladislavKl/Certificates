@@ -40,7 +40,7 @@ Get-Random
 Stop-Process -id 1352 -force
 #19.	Подсчитать значение выражения S= . N – изменяемый параметр. Каждый шаг выводить в виде строки. (Пример: На шаге 2 сумма S равна 9)
 $S = 0                                                        
-$N = 4 
+$N = Read-Host "Enter N" 
 for ($i = 1; $i -le $N; ++$i){
     $S += $i
     Write-Host "S = " $S
@@ -57,4 +57,5 @@ Function Get-Summ {
     }
     return $S;
 }
-Get-Summ -N 4
+$N = Read-Host "Enter N" 
+Get-Summ -N $N
